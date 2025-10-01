@@ -319,8 +319,8 @@ wget -O - https://raw.githubusercontent.com/nephio-project/test-infra/main/e2e/p
 sudo NEPHIO_DEBUG=false \
 NEPHIO_BRANCH=main \
 NEPHIO_USER=$(whoami) \
-DOCKERHUB_USERNAME=rehanfazal47 \
-DOCKERHUB_TOKEN=819734qwertyuiop \
+DOCKERHUB_USERNAME=USERNAME \
+DOCKERHUB_TOKEN=PASSWORD \
 K8S_CONTEXT=$(kubectl config current-context) \
 bash
 
