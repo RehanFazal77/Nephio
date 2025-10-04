@@ -308,7 +308,6 @@ echo ""
 echo "IMPORTANT: Log out and log back in to apply Docker group membership"
 echo ""
 echo "Then run the following command to install Nephio:"
-#paste the nephio install command here
 echo ""
 echo "IMPORTANT: Log out and log back in to apply Docker group membership"
 echo ""
