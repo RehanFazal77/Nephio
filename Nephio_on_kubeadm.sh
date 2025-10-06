@@ -324,4 +324,4 @@ K8S_CONTEXT=$(kubectl config current-context) \
 bash
 
 echo ""
-echo "Nephio installation complete. All logs saved in $LOG_FILE"
+echo "Nephio installation is completed. All logs saved in $LOG_FILE"
