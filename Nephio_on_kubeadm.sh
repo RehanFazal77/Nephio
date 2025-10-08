@@ -180,7 +180,7 @@ retry kubectl apply -f $STORAGE_URL
 echo "Waiting for local-path-provisioner deployment to be ready..."
 kubectl rollout status deployment/local-path-provisioner -n local-path-storage --timeout=300s
 
-# Patch storageclass as default
+# Patch storageclass as default, the gitea pods required this  
 echo "Patching local-path storageclass as default..."
 kubectl patch storageclass local-path -p '{"metadata": {"annotations":{"storageclass.kubernetes.io/is-default-class":"true"}}}'
 
